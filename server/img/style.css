@@ -1,0 +1,69 @@
+body {
+	text-align: center;
+}
+#snakeCanvas {
+	background-image: url('grass.jpg');
+	background-repeat: repeat;
+}
+#apple {
+	display: none;
+}
+speed_label {
+	position: relative;
+	top: 7px;
+	float: left;
+	left: 472px;	
+}
+input[type=range] {
+	position: relative;
+	
+	display: inline;
+	
+	
+    -webkit-appearance: none!important;
+    -moz-appearance: none;
+    background-color: lightblue;
+    width: 234px;
+    height:8px;
+}
+input[type="range"]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+    background-color: #666;
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+speed {
+	margin-top: 18px;
+}
+color_label {
+	position: relative;
+	left: -103px;
+}
+.sp-replacer{
+	position: relative;
+	
+}
+points_label {
+	position: relative;
+	display: inline;	
+	float: left;
+	left: 532px;	
+}
+#game_info_wrapper {
+	padding: 0;
+	width: 300px;
+	margin: 0 auto;
+	text-align: left;
+}
+#game_info p {
+	min-width: 300px;
+}
+.logo {
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
